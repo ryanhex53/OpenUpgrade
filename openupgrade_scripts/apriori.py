@@ -125,6 +125,8 @@ merged_modules = {
     "web_tree_image_tooltip": "web",
 }
 
+merged_modules.update({"qx_peifang": "oy_mrp"})
+
 # only used here for upgrade_analysis
 renamed_models = {
     # odoo
