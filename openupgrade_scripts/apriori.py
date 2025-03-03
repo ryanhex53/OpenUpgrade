@@ -113,12 +113,16 @@ merged_modules = {
     "website_snippet_timeline": "website",
 }
 
+merged_modules.update({"qx_salecode": "oy_sale"})
+
 # only used here for upgrade_analysis
 renamed_models = {
     # odoo
     "calendar.contacts": "calendar.filters",
     "mail.moderation": "mail.group.moderation",
     # OCA/...
+    # 3rd party modules
+    "qx.sale.code": "oy.sale.sale.code"
 }
 
 # only used here for upgrade_analysis
